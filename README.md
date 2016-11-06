@@ -22,7 +22,7 @@ Last thing you need is the URL of the blob you need to copy between the subscrip
 Run the script with the following syntax -
 
 ```bash
-./vhdcopy.sh <source subscription id> <target subscription id> <URL of the blob you want to copy> <option-target storage account name> <optional-target container name>
+./vhdcopy.sh <source subscription id> <target subscription id> <URL of the blob you want to copy> <optional-target storage account name> <optional-target container name>
 ```
 
 Do this for every blob you need to copy and that's all - sit back and relax!
