@@ -52,7 +52,7 @@ echo "Verifying target container..."
 status=`azure storage container list -c ${targetconnstr} --json | jq " .[] | select(.name == \"${targetcnt}\").name" |sed s/\"//g`
 if [ \"${targetcnt}\" != \"${status}\" ];
 then
-   echo "Source container not found in storage account ${targetsa}."
+   echo "Target container not found in storage account ${targetsa}."
    echo "Creating target container..."
    azure storage container create ${targetcnt} -p Blob -c ${targetconnstr}
 fi
