@@ -1,3 +1,6 @@
+#Note:
+Please check out the [**Azure Toolkit**] (https://github.com/ashisa/azuretoolkit) repository for this and other scripts in a single location.
+
 #What is vhdcopy.sh?
 
 vhdcopy.sh is Azure CLI script to copy blobs from one subscription to another subscription with minimal intervention. This script depends on [**Azure CLI**] (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/) and the awesome command-line JSON processor [**jq**] (https://stedolan.github.io/jq/).
